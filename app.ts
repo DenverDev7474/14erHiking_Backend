@@ -67,7 +67,7 @@ app.use(`${api}/`, routesRouter );
 app.use(`${api}/`, usersRouter );
 
 
-app.listen(3000, () => {
+app.listen(3000,'0.0.0.0', () => {
     console.log('Server started on port localhost: 3000')
     console.log(api);
 });
